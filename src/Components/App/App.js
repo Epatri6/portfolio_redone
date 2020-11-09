@@ -5,6 +5,7 @@ import NonRoute from '../../Routes/NonRoute/NonRoute';
 import Header from '../Header/Header';
 import ContactPage from '../../Routes/ContactPage/ContactPage';
 import ProjectPage from '../../Routes/ProjectPage/ProjectPage';
+import SpritPage from '../../Routes/Sprit/SpritPage';
 
 export default class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends React.Component {
           <Route exact path='/' component={LandingPage}/>
           <Route path='/contact' component={ContactPage}/>
           <Route path='/projects' component={ProjectPage}/>
+          <Route path='/sprit' component={SpritPage}/>
           <Route component={NonRoute}/>
         </Switch>
       </div>
