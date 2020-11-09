@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Switch} from 'react-router';
 import LandingPage from '../../Routes/LandingPage/LandingPage';
-import NonRoute from '../../Routes/NonRoute';
+import NonRoute from '../../Routes/NonRoute/NonRoute';
 import Header from '../Header/Header';
 import ContactPage from '../../Routes/ContactPage/ContactPage';
 
