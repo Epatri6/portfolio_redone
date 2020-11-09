@@ -10,11 +10,11 @@ export default class Header extends React.Component {
                     <h1>Patrick Easter's Portfolio</h1>
                 </Link>
                 <nav className='flex-row'>
-                    <Link>About Me</Link>
+                    <Link to='/about'>About Me</Link>
                     |
-                    <Link>Projects</Link>
+                    <Link to='/projects'>Projects</Link>
                     |
-                    <Link>Contact</Link>
+                    <Link to='/contact'>Contact</Link>
                 </nav>
             </div>
         );

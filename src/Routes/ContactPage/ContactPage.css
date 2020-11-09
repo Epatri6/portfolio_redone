@@ -1,0 +1,15 @@
+.contact {
+    width: 80%;
+    height: 40%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contact a, .contact a:visited {
+    color: blue;
+    font-size: x-large;
+}
+
+.contact a:hover {
+    color: red;
+}
