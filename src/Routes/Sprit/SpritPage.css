@@ -47,6 +47,10 @@
     padding: 0px;
 }
 
+.screenshot {
+    margin: 20px;
+}
+
 @media (min-width: 600px) {
     .stack {
         flex-direction: row;

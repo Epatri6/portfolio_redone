@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import ContactPage from '../../Routes/ContactPage/ContactPage';
 import ProjectPage from '../../Routes/ProjectPage/ProjectPage';
 import SpritPage from '../../Routes/Sprit/SpritPage';
+import SpacedPage from '../../Routes/Spaced/SpacedPage';
 
 export default class App extends React.Component {
   render() {
@@ -17,6 +18,7 @@ export default class App extends React.Component {
           <Route path='/contact' component={ContactPage}/>
           <Route path='/projects' component={ProjectPage}/>
           <Route path='/sprit' component={SpritPage}/>
+          <Route path='/spaced-repetition' component={SpacedPage}/>
           <Route component={NonRoute}/>
         </Switch>
       </div>

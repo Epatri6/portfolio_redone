@@ -1,37 +1,37 @@
 import React from 'react';
-import './SpritPage.css';
-import landing from '../../Images/sprits/preview.png';
-import board from '../../Images/sprits/example_board.png';
-import loss from '../../Images/sprits/example_loss.png';
+import './SpacedPage.css';
+import dashboard from '../../Images/spaced/dashboard.png';
+import guess from '../../Images/spaced/guess.png';
+import result from '../../Images/spaced/result.png';
 
 const screenshots = [
     {
-        src: landing,
-        alt: 'landing page',
-        desc: 'A welcoming forest aesthetic'
+        src: dashboard,
+        alt: 'dashboard',
+        desc: 'Dashboard and some of the learnable words'
     },
     {
-        src: board,
-        alt: 'game board',
-        desc: 'The game board'
+        src: guess,
+        alt: 'example guess form',
+        desc: 'Submit English translation'
     },
     {
-        src: loss,
-        alt: 'loss screen',
-        desc: 'Don\'t make Sprit sad by losing!'
+        src: result,
+        alt: 'guess result example',
+        desc: 'Find out if you were correct and see your record'
     }
 ];
 
-export default class SpritPage extends React.Component {
+export default class SpacedPage extends React.Component {
     render() {
         return (
-            <div className='flex-col sprit'>
+            <div className='flex-col sprit spaced'>
                 <section className='flex-col gray-box text-center'>
-                    <h2>Sprit's Forest</h2>
-                    <p className='space-pre-wrap'>{"A small scale orginial puzzle game.\n\nStop corruption from spilling into the forest by cleansing it before it leaks!\n\nPlayers can save games and track how many puzzles they've completed."}</p>
-                    <a className='demo' target='blank' href='https://sprits-forest.vercel.app/'>Play it here!</a>
-                    <p>Client Repo:<a target='blank' href='https://github.com/Epatri6/SpritsForest'>GitHub</a></p>
-                    <p>API Repo:<a target='blank' href='https://github.com/Epatri6/sprits-forest-server'>GitHub</a></p>
+                    <h2>Spaced Repetition</h2>
+                    <p className='space-pre-wrap'>{"App to learn Irish using the spaced repetition technique.\n\nUsers can see all the words they have to learn and their scores for each.\n\nThere is framework on the backend to support multiple languages in the future."}</p>
+                    <a className='demo' target='blank' href='https://spaced-rep-client-patrick-johnp.vercel.app/'>Try it!</a>
+                    <p>Client Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/spaced-rep-client-patrick-johnp'>GitHub</a></p>
+                    <p>API Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/spaced-rep-server-patrick-johnp'>GitHub</a></p>
                 </section>
                 <section className='gray-box flex-col text-center'>
                 <h2>Screenshots</h2>
