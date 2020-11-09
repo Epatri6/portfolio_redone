@@ -4,6 +4,7 @@ import LandingPage from '../../Routes/LandingPage/LandingPage';
 import NonRoute from '../../Routes/NonRoute/NonRoute';
 import Header from '../Header/Header';
 import ContactPage from '../../Routes/ContactPage/ContactPage';
+import ProjectPage from '../../Routes/ProjectPage/ProjectPage';
 
 export default class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class App extends React.Component {
         <Switch>
           <Route exact path='/' component={LandingPage}/>
           <Route path='/contact' component={ContactPage}/>
+          <Route path='/projects' component={ProjectPage}/>
           <Route component={NonRoute}/>
         </Switch>
       </div>
