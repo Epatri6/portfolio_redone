@@ -1,0 +1,42 @@
+.about .gray-box {
+    width: 90%;
+}
+
+.about p {
+    margin: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.info img {
+    width: 70%;
+}
+
+.info ol {
+    text-align: center;
+}
+
+.info ol li {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 700px) {
+    .info {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info .flex-col {
+        flex: 1;
+    }
+
+    .info img {
+        width: 30%;
+        margin-right: 20px;
+    }
+}

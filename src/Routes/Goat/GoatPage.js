@@ -1,37 +1,37 @@
 import React from 'react';
-import './SpacedPage.css';
-import dashboard from '../../Images/spaced/dashboard.png';
-import guess from '../../Images/spaced/guess.png';
-import result from '../../Images/spaced/result.png';
+import './GoatPage.css';
+import goal from '../../Images/goat/create_reward.png';
+import reward from '../../Images/goat/create_reward.png';
+import archive from '../../Images/goat/archived_goals.png';
 
 const screenshots = [
     {
-        src: dashboard,
-        alt: 'dashboard',
-        desc: 'Dashboard and some of the learnable words'
+        src: goal,
+        alt: 'goal creation screen',
+        desc: 'Create goals'
     },
     {
-        src: guess,
-        alt: 'example guess form',
-        desc: 'Submit English translation'
+        src: reward,
+        alt: 'reward creation screen',
+        desc: 'Create rewards'
     },
     {
-        src: result,
-        alt: 'guess result example',
-        desc: 'Find out if you were correct and see your record'
+        src: archive,
+        alt: 'archived goals screen',
+        desc: 'See past completed goals'
     }
 ];
 
-export default class SpacedPage extends React.Component {
+export default class GoatPage extends React.Component {
     render() {
         return (
-            <div className='flex-col sprit spaced'>
+            <div className='flex-col sprit goat'>
                 <section className='flex-col gray-box text-center'>
-                    <h2>Spaced Repetition</h2>
-                    <p className='space-pre-wrap'>{"An app to learn Irish using the spaced repetition technique.\n\nUsers can see all the words they have to learn and their scores for each.\n\nThere is framework on the backend to support multiple languages in the future."}</p>
-                    <a className='demo' target='blank' href='https://spaced-rep-client-patrick-johnp.vercel.app/'>Try it!</a>
-                    <p>Client Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/spaced-rep-client-patrick-johnp'>GitHub</a></p>
-                    <p>API Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/spaced-rep-server-patrick-johnp'>GitHub</a></p>
+                    <h2>Goat</h2>
+                    <p className='space-pre-wrap'>{"A gamified personal goal setting app.\n\nUsers wager points they'll complete goals by a set time, losing them if they fail.\n\nThey can then spend these points on self defined rewards."}</p>
+                    <a className='demo' target='blank' href='https://goat-client.vercel.app/'>Try it!</a>
+                    <p>Client Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/goat-client'>GitHub</a></p>
+                    <p>API Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/goat-api'>GitHub</a></p>
                 </section>
                 <section className='gray-box flex-col text-center'>
                 <h2>Screenshots</h2>
