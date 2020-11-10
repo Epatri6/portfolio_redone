@@ -11,7 +11,7 @@ export default class LandingPage extends React.Component {
                 <div className='flex-col gray-box'>
                     <p>Welcome to my portfolio!</p>
                     <p>My name is Patrick and I'm looking for a career in software development.</p> 
-                    <p>Please use the links above to explore projects I've done and general information about me.</p>
+                    <p>Please use the links above to explore the projects I've done and general information about me.</p>
                 </div>
             </div>
         );

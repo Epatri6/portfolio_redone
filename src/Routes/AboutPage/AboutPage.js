@@ -22,7 +22,7 @@ export default class AboutPage extends React.Component {
                         <img src={banjo} alt='banjo kazooie box'/>
                         <div className='flex-col'>
                             <h3>Video Games</h3>
-                            <p className='space-pre-wrap'>{"Video games have always been a big part of my life and I find game design fascinating.\n\nI have tinkered with various game engines such as Unity for the past decade.\n\nWorking with a small team of artists and musicians, I've developed several small scale projects.\n\nThrough these mediums I've developed skills in problem solving, game design, user experience, and creativity that I can bring to any team of programmers.\n\nUtilizing these skills, I wish to provide service in software development (with a preference for game development)."}</p>
+                            <p className='space-pre-wrap'>{"Video games have always been a big part of my life and I find game design fascinating.\n\nI have tinkered with various game engines such as Unity for the past decade.\n\nWorking with a small team of artists and musicians, I've developed several small scale projects.\n\nThrough these mediums, I've developed skills in problem-solving, game design, user experience, and creativity that I can bring to any team of programmers.\n\nUtilizing these skills, I wish to provide service in software development (with a preference for game development)."}</p>
                             <h4>Top Video Games</h4>
                             <ol>
                                 <li>Banjo Kazooie</li>
@@ -35,14 +35,14 @@ export default class AboutPage extends React.Component {
                         <img src={coat} alt='romantic gothic coat'/>
                         <div className='flex-col'>
                             <h3>Romantic Gothic Fashion</h3>
-                            <p className='space-pre-wrap'>{"I absolutely adore Victorian/Romantic gothic fashion.\n\nPictured is my favorite coat - warm, comfy, and stylish.\n\nNeedless to say, I'm completely fine with formal dress codes."}</p>
+                            <p className='space-pre-wrap'>{"I absolutely adore Romantic/Victorian, gothic fashion.\n\nPictured is my favorite coat - warm, comfy, and stylish.\n\nNeedless to say, I'm completely fine with formal dress codes."}</p>
                         </div>
                     </div>
                     <div className='info'>
                         <img src={violin} alt='example violin'/>
                         <div className='flex-col'>
                             <h3>Violin</h3>
-                            <p className='space-pre-wrap'>{"The violin is my favorite instrument and the majority of music I enjoy features it.\n\nI practice it in my free time - it's an effective stress reduction activity.\n\nEventually I'd like to be able to play Lindsey Stirling's rendition of Evanescence's \"My Immortal\"."}</p>
+                            <p className='space-pre-wrap'>{"The violin is my favorite instrument and the majority of music I enjoy features it.\n\nI practice it in my free time - it's an effective stress reduction activity.\n\nEventually, I'd like to be able to play Lindsey Stirling's rendition of Evanescence's \"My Immortal.\""}</p>
                         </div>
                     </div>
                 </section>

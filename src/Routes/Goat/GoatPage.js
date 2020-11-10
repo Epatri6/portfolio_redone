@@ -28,7 +28,7 @@ export default class GoatPage extends React.Component {
             <div className='flex-col sprit goat'>
                 <section className='flex-col gray-box text-center'>
                     <h2>Goat</h2>
-                    <p className='space-pre-wrap'>{"A gamified personal goal setting app.\n\nUsers wager points they'll complete goals by a set time, losing them if they fail.\n\nThey can then spend these points on self defined rewards."}</p>
+                    <p className='space-pre-wrap'>{"A gamified personal goal setting app.\n\nUsers wager points they'll complete goals by a set time, losing them if they fail.\n\nThey can then spend these points on self-defined rewards.\n\nThe primary purpose of this application was to practice coordinating development with a small team.\n\nIt was a team of four, using an AGILE methodology of approaching the work."}</p>
                     <a className='demo' target='blank' href='https://goat-client.vercel.app/'>Try it!</a>
                     <p>Client Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/goat-client'>GitHub</a></p>
                     <p>API Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/goat-api'>GitHub</a></p>

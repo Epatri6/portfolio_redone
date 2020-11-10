@@ -28,7 +28,7 @@ export default class SpritPage extends React.Component {
             <div className='flex-col sprit'>
                 <section className='flex-col gray-box text-center'>
                     <h2>Sprit's Forest</h2>
-                    <p className='space-pre-wrap'>{"A small scale orginial puzzle game.\n\nStop corruption from spilling into the forest by cleansing it before it leaks!\n\nPlayers can save games and track how many puzzles they've completed."}</p>
+                    <p className='space-pre-wrap'>{"A small scale original puzzle game.\n\nStop corruption from spilling into the forest by cleansing it before it leaks!\n\nPlayers can save games and track how many puzzles they've completed.\n\nWith this app, I want to show my creativity and ability to respect restraints.\n\nThis application was developed with a two-week deadline and the inability to use anything not listed in the tech stack listed further down the page."}</p>
                     <a className='demo' target='blank' href='https://sprits-forest.vercel.app/'>Play it here!</a>
                     <p>Client Repo:<a target='blank' href='https://github.com/Epatri6/SpritsForest'>GitHub</a></p>
                     <p>API Repo:<a target='blank' href='https://github.com/Epatri6/sprits-forest-server'>GitHub</a></p>

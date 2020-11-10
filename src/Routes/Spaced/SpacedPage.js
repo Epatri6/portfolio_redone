@@ -28,7 +28,7 @@ export default class SpacedPage extends React.Component {
             <div className='flex-col sprit spaced'>
                 <section className='flex-col gray-box text-center'>
                     <h2>Spaced Repetition</h2>
-                    <p className='space-pre-wrap'>{"An app to learn Irish using the spaced repetition technique.\n\nUsers can see all the words they have to learn and their scores for each.\n\nThere is framework on the backend to support multiple languages in the future."}</p>
+                    <p className='space-pre-wrap'>{"An app to learn Irish using the spaced repetition technique.\n\nUsers can see all the words they have to learn and their scores for each.\n\nThere is a framework on the backend to support multiple languages in the future.\n\nThis application allowed me to practice implementing data structures and developing an algorithm for choosing which word to present."}</p>
                     <a className='demo' target='blank' href='https://spaced-rep-client-patrick-johnp.vercel.app/'>Try it!</a>
                     <p>Client Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/spaced-rep-client-patrick-johnp'>GitHub</a></p>
                     <p>API Repo:<a target='blank' href='https://github.com/thinkful-ei-quail/spaced-rep-server-patrick-johnp'>GitHub</a></p>
