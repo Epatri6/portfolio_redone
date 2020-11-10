@@ -6,55 +6,56 @@
 */
 
 .landing {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    flex: 5;
+    flex: 4;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
-    white-space: pre-wrap;
-    margin-top: 5%;
-    font-size: larger;
 }
 
 .landing img {
     flex: 1;
-    max-width: 90%;
+    max-width: 80%;
+    object-fit: contain;
+    margin: 20px;
+}
+
+.landing div {
+    flex: 1;
 }
 
 .landing .gray-box {
     flex: 1;
     justify-content: center;
+    text-align: center;
 }
 
 .landing p {
-    padding: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
-@media (min-width: 800px) {
-    .landing {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        width: 100%;
-        -webkit-box-pack: space-evenly;
-            -ms-flex-pack: space-evenly;
-                justify-content: space-evenly;
+@media (min-width: 700px) {
+    .landing p{
+        font-size: larger;
     }
-    
-    .landing img {
-        padding-left: 10px;
+}
+@media (min-width: 900px) {
+
+    .landing {
+        flex-direction: row;
+    }
+
+    .landing div {
         flex: 2;
-        max-width: 40%;
+        margin: 20px;
+    }
+
+    .landing img {
+        max-width: 50%;
+    }
+
+    .landing {
+        font-size: larger;
     }
 }
