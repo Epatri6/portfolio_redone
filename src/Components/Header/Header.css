@@ -37,6 +37,10 @@
     margin: 10px;
 }
 
+nav a {
+    flex: 1;
+}
+
 .header a:hover {
     color: black;
 }
