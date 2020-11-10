@@ -7,7 +7,7 @@ import result from '../../Images/spaced/result.png';
 const screenshots = [
     {
         src: dashboard,
-        alt: 'dashboard',
+        alt: 'example dashboard',
         desc: 'Dashboard and some of the learnable words'
     },
     {

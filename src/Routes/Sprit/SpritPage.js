@@ -12,7 +12,7 @@ const screenshots = [
     },
     {
         src: board,
-        alt: 'game board',
+        alt: 'example game board',
         desc: 'The game board'
     },
     {

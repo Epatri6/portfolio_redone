@@ -39,7 +39,7 @@ export default class AboutPage extends React.Component {
                         </div>
                     </div>
                     <div className='info'>
-                        <img src={violin} alt='violin'/>
+                        <img src={violin} alt='example violin'/>
                         <div className='flex-col'>
                             <h3>Violin</h3>
                             <p className='space-pre-wrap'>{"The violin is my favorite instrument and the majority of music I enjoy features it.\n\nI practice it in my free time - it's an effective stress reduction activity.\n\nEventually I'd like to be able to play Lindsey Stirling's rendition of Evanescence's \"My Immortal\".n"}</p>
