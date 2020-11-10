@@ -5,15 +5,25 @@
 * Browsers: last 4 version
 */
 
+.about {
+    flex: 1;
+}
+
 .about .gray-box {
     width: 90%;
+    flex: 1;
 }
 
 .about p {
     margin: 10px;
 }
 
+.about .flex-col {
+    flex: 1;
+}
+
 .info {
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -24,11 +34,12 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 .info img {
-    width: 70%;
+    max-width: 90%;
+    flex: 1;
 }
 
 .info ol {
@@ -57,7 +68,8 @@
     }
 
     .info img {
-        width: 30%;
+        min-width: 50%;
+        max-width: 50%;
         margin-right: 20px;
     }
 }

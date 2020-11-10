@@ -8,6 +8,7 @@
 .landing {
     display: -webkit-box;
     display: -ms-flexbox;
+    flex: 6;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -23,7 +24,12 @@
 }
 
 .landing img {
+    flex: 1;
     max-height: 200px;
+}
+
+.landing .gray-box {
+    flex: 4;
 }
 
 .landing p {
@@ -47,6 +53,7 @@
     
     .landing img {
         padding-left: 10px;
+        flex: 2;
         max-height: 400px;
     }
 }

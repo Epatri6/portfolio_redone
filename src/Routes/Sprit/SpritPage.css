@@ -16,10 +16,12 @@
 
 .sprit img {
     width: 80%;
+    flex: 1;
 }
 
 .sprit .gray-box {
     width: 90%;
+    flex: 1;
 }
 
 .sprit p {

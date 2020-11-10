@@ -14,8 +14,10 @@
 
 .project-preview img {
     width: 80%;
+    flex: 1;
 }
 
 .project-preview p {
     margin: 10px;
+    flex: 1;
 }

@@ -6,6 +6,7 @@
 */
 
 .header {
+    flex: 1;
     background: rgb(122, 1, 1);
     width: 100%;
     -webkit-box-pack: space-evenly;
@@ -28,7 +29,7 @@
     font-size: large;
     background: rgb(180, 10, 10);
     color: white;
-    height: 20%;
+    flex: 1;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
