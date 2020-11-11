@@ -17,6 +17,10 @@ html, body, #root, .App {
   width: 100%;
 }
 
+.full-height {
+  height: 100%;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;

@@ -1,12 +1,12 @@
 .contact {
-    flex: 4;
     text-align: center;
     width: 100%;
     align-items: center;
+    height: 500px;
 }
 
 .contact .flex-col {
-    min-height: 80%;
+    height: 80%;
 }
 
 .contact h2 {
@@ -24,6 +24,6 @@
 
 @media (min-height: 700px) {
     .contact .flex-col {
-        min-height: 50%;
+        height: 50%;
     }
 }

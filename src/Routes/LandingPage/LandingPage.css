@@ -1,5 +1,5 @@
 .landing {
-    flex: 4;
+    justify-self: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

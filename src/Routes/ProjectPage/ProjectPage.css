@@ -13,6 +13,7 @@
 @media (min-width: 1200px) {
     .projects {
         flex-direction: row;
+        height: 600px;
     }
 
     .projects section {
