@@ -13,7 +13,7 @@ import AboutPage from '../../Routes/AboutPage/AboutPage';
 export default class App extends React.Component {
   render() {
     return (
-      <div className='wrapper flex-col'>
+      <div className='wrapper'>
         <Header/>
         <Switch>
           <Route exact path='/' component={LandingPage}/>
