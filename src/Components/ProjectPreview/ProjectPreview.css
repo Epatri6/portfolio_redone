@@ -1,23 +1,11 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
-.project-preview {
-    text-align: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-}
-
 .project-preview img {
-    width: 80%;
+    max-width: 80%;
+    object-fit: contain;
     flex: 1;
 }
 
-.project-preview p {
+.project-preview .flex-row {
     margin: 10px;
     flex: 1;
+    align-self: center;
 }

@@ -10,10 +10,12 @@ export default class AboutPage extends React.Component {
         return (
             <div className='about flex-col'>
                 <section className='flex-col gray-box text-center'>
-                    <h2>Hello, I'm Patrick Easter!</h2>
                     <div className='info'>
                         <img src={profile} alt='head shot'/>
-                        <p className='space-pre-wrap'>{"I'm a software developer in Richmond, VA that enjoys solving problems via analytical methods with imaginative twists.\n\nLogical problems never fail to catch my interest. That's the primary reason I graduated in Philosophy from Virginia Tech.\n\nHowever, writing books or pursuits of a similar nature do not inspire me. Rather, I find great motivation in creating engaging experiences via software."}</p>
+                        <div className='flex-col'>
+                            <h2>Hello, I'm Patrick Easter!</h2>
+                            <p className='space-pre-wrap'>{"I'm a software developer in Richmond, VA that enjoys solving problems via analytical methods with imaginative twists.\n\nLogical problems never fail to catch my interest. That's the primary reason I graduated in Philosophy from Virginia Tech.\n\nHowever, writing books or pursuits of a similar nature do not inspire me. Rather, I find great motivation in creating engaging experiences via software."}</p>
+                        </div>
                     </div>
                 </section>
                 <section className='flex-col gray-box text-center'>

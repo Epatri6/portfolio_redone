@@ -1,17 +1,16 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 .contact {
-    width: 80%;
-    height: 40%;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex: 4;
     text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+.contact .flex-col {
+    min-height: 80%;
+}
+
+.contact h2 {
+    margin: 20px;
 }
 
 .contact a, .contact a:visited {
@@ -21,4 +20,10 @@
 
 .contact a:hover {
     color: red;
+}
+
+@media (min-height: 700px) {
+    .contact .flex-col {
+        min-height: 50%;
+    }
 }
