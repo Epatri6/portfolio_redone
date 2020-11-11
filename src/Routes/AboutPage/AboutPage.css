@@ -37,7 +37,7 @@
     margin-bottom: 5px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1200px) {
     .info {
         flex-direction: row;
         justify-content: space-evenly;
@@ -51,5 +51,9 @@
     .info img {
         max-width: 50%;
         object-fit: contain;
+    }
+
+    .about p {
+        font-size: large;
     }
 }
