@@ -25,7 +25,7 @@ const screenshots = [
 export default class SpritPage extends React.Component {
     render() {
         return (
-            <div className='flex-col sprit'>
+            <div className='sprit flex-col'>
                 <section className='flex-col gray-box text-center'>
                     <h2>Sprit's Forest</h2>
                     <p className='space-pre-wrap'>{"A small scale original puzzle game.\n\nStop corruption from spilling into the forest by cleansing it before it leaks!\n\nPlayers can save games and track how many puzzles they've completed.\n\nWith this app, I want to show my creativity and ability to respect restraints.\n\nThis application was developed with a two-week deadline and the inability to use anything not listed in the tech stack listed further down the page."}</p>
